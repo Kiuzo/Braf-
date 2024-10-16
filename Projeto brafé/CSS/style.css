@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    display:flex;
+    display: flex;
     max-width: 960px;
     margin: 0 auto;
     
@@ -33,7 +33,7 @@ body{
 }
 
 .menu-nav{
-    flex: 1;
+    flex:1;
     margin: 0 10px;
     align-self: center;
 }
@@ -46,10 +46,12 @@ body{
     float: right;
     display: flex;
     list-style: none;
+    
 }
 
-
-.menu-nav ul li{
+.menu-nav ul li a{
     padding: 10px;
 }
+
+
 
